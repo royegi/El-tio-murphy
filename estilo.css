@@ -85,5 +85,5 @@ p#sextocuadro {
 }
 
 p:hover {
-  z-index;
+  z-index:2;
 }
