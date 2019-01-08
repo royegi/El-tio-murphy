@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+
+body {
+  background-color:hsl(0, 7%, 75%);
+  font-family: sans-serif;
+}
+
+h1 {
+  
+  font-size: 3rem;
+  text-align: center;
+}
+
+p {
+  padding: 9px;
+  font-size: 2rem;
+}
+
+p#primercuadro {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 10%;
+  border: hsl(41, 39%, 39%) 3px solid;
+  background-color: hsl(40, 95%, 76%);
+  text-align: center;
+}
+
+p#segundocuadro {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  width: 35%;
+  height: 30%;
+  z-index: 2;
+  border: hsl(120, 39%, 39%) 3px solid;
+  background-color: hsl(120, 79%, 71%);
+  text-align: center;
+}
+
+p#tercecuadro {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  width: 35%;
+  height: 25%;
+  border: hsl(60, 71%, 58%) 3px solid;
+  background-color: hsl(60, 84%, 71%);
+  text-align: left;
+}
+
+p#cuartocuadro {
+  position: absolute;
+  top: 25%;
+  right: 5%;
+  width: 35%;
+  height: 25%;
+  border: hsl(180, 29%, 74%) 3px solid;
+  background-color: hsl(180, 54%, 84%);
+  text-align: right;
+}
+
+p#quintocuadro {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  width: 35%;
+  height: 25%;
+  border: hsl(300, 19%, 77%) 3px solid;
+  background-color: hsl(300, 46%, 88%);
+  text-align: left;
+}
+
+p#sextocuadro {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  width: 35%;
+  height: 25%;
+  border: hsl(0, 16%, 55%) 3px solid;
+  background-color: hsl(0, 70%, 80%);
+  text-align: right;
+}
+
+p:hover {
+  z-index;
+}
